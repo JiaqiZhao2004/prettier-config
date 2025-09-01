@@ -1,0 +1,30 @@
+{
+  "name": "@jiaqizhao2004/prettier-config",
+  "version": "1.0.0",
+  "description": "Roy's config for code formatter Prettier",
+  "keywords": [
+    "prettier"
+  ],
+  "homepage": "https://github.com/JiaqiZhao2004/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/JiaqiZhao2004/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiaqiZhao2004/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Jiaqi Zhao",
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  }
+}
