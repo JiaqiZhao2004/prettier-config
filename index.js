@@ -19,8 +19,7 @@ const config = {
   "useTabs": false,
   "embeddedLanguageFormatting": "auto",
   "vueIndentScriptAndStyle": false,
-  "experimentalTernaries": false,
-  "parser": "json"
+  "experimentalTernaries": false
 };
 
-export default config;
+module.exports = config;
